@@ -1,0 +1,187 @@
+$primary: #1e4151;
+$secondary: #fbf7e9;
+$secondary-alt: #ffffff;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+);
+@import "~bootstrap/scss/bootstrap";
+
+html {
+  font-family: "Arvo", sans-serif;
+}
+
+body {
+  padding: 0;
+}
+
+#popup {
+  width: 20rem;
+  height: 25rem;
+  padding: 0;
+  background-color: $secondary;
+  overflow: hidden;
+}
+
+/* ===== NAV BAR ===== */
+
+.navbar {
+  background-color: $primary;
+  z-index: 1000;
+}
+
+.navbar p {
+  color: white;
+}
+
+.navbar-brand {
+  margin: 0;
+}
+
+.navbar-brand img {
+  max-width: 2rem;
+}
+
+.navbar span {
+  color: $secondary;
+  font-weight: 700 !important;
+}
+
+.faicon {
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  text-align: center;
+
+  .label-text {
+    font-size: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .label-text:hover {
+    cursor: pointer;
+  }
+
+  .address-text {
+    font-size: 0.75rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .address-text:hover {
+    cursor: pointer;
+  }
+
+  .balance span {
+    display: inline;
+  }
+
+  .actions {
+    button {
+      width: 100%;
+      font-size: 0.9rem;
+      .icon {
+        width: 1.5rem;
+      }
+    }
+  }
+}
+
+.menu {
+  max-width: 12rem;
+  background-color: $primary;
+  color: white;
+
+  .offcanvas-body {
+    padding: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  h4 {
+    margin: 0;
+    padding: 0;
+  }
+
+  hr {
+    margin: 0.5rem;
+  }
+
+  .menu-item {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+
+    .icon {
+      width: 1.5rem;
+    }
+  }
+
+  .account {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.7rem;
+  }
+
+  .menu-item:focus,
+  .menu-item:active {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+}
+
+.section-footer {
+  padding: 0.6rem;
+  background-color: $primary;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+
+  span {
+    font-size: 0.8rem;
+    color: $secondary !important;
+  }
+}
+
+.account-options {
+  .dropdown-toggle:after {
+    display: none !important;
+  }
+  .dropdown-item {
+    .icon {
+      width: 1.5rem;
+    }
+  }
+}
+
+.btn.btn-danger {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.input-error {
+  font-size: .875em;
+  color: #dc3545;
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+.starter {
+  color: #aaaaaa;
+  margin-top: 7rem;
+  h3 {
+    margin-bottom: 0;
+  }
+}
