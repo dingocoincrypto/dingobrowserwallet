@@ -1,6 +1,6 @@
 {
   "name": "dingocoin-browser-extension-wallet",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Web extension starter using react and typescript",
   "private": true,
   "author": {
