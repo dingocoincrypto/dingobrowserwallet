@@ -522,7 +522,7 @@ const Popup: React.FC = () => {
             </Col>
             <Col>
               <a
-                href={`https://explorer.dingocoin.org/address/${activeAccount.address}`}
+                href={`https://explorer.dingocoin.com/address/${activeAccount.address}`}
                 target="_blank"
                 rel="noreferrer"
               >
