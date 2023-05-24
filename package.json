@@ -24,9 +24,9 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.14.0",
-    "@fortawesome/fontawesome-svg-core": "^1.2.36",
-    "@fortawesome/free-solid-svg-icons": "^5.15.4",
-    "@fortawesome/react-fontawesome": "^0.1.16",
+    "@fortawesome/fontawesome-svg-core": "^6.3.0",
+    "@fortawesome/free-solid-svg-icons": "^6.3.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@types/webextension-polyfill": "^0.8.2",
     "advanced-css-reset": "^1.2.2",
     "bitcoinjs-lib": "https://github.com/rkbling/bitcoinjs-lib.git",
