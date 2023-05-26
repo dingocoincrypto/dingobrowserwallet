@@ -1,4 +1,4 @@
-const PROVIDER_URL = "https://bewp0.dingocoin.io";
+const PROVIDER_URL = "https://dbewp.twinkykms.com";
 
 const get = async (link) => {
   const controller = new AbortController();
