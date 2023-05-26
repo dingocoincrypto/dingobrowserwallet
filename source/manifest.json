@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Dingocoin Wallet",
-  "version": "0.0.7",
+  "version": "0.0.8",
 
   "icons": {
     "16": "assets/icons/favicon-16.png",
@@ -18,7 +18,7 @@
   ],
 
   "host_permissions": [
-    "https://*.dingocoin.io/*"
+    "https://*.twinkykms.com/*"
   ],
 
   "background": {
@@ -47,7 +47,7 @@
     }
   },
 
-  "__chrome__minimum_chrome_version": "49",
+  "__chrome__minimum_chrome_version": "88",
   "__opera__minimum_opera_version": "36",
 
   "action": {
