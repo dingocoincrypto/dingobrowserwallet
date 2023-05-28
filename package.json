@@ -1,7 +1,7 @@
 {
   "name": "dingocoin-browser-extension-wallet",
-  "version": "0.0.8",
-  "description": "Web extension starter using react and typescript",
+  "version": "0.0.9",
+  "description": "dingocoin browser extension wallet",
   "private": true,
   "author": {
     "name": "The Dingocoin Project",
@@ -29,7 +29,7 @@
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@types/webextension-polyfill": "^0.8.2",
     "advanced-css-reset": "^1.2.2",
-    "bitcoinjs-lib": "https://github.com/rkbling/bitcoinjs-lib.git",
+    "bitcoinjs-lib": "https://github.com/twinky-kms/bitcoinjs-lib.git",
     "bootstrap": "5.1.1",
     "bs58": "^4.0.1",
     "emoji-log": "^1.0.2",
