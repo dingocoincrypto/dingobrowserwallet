@@ -55,10 +55,14 @@ const Popup: React.FC = () => {
   const createAccountPasswordRef = React.createRef();
   const [createAccountLabel, setCreateAccountLabel] = React.useState("");
   const [createAccountPassword, setCreateAccountPassword] = React.useState("");
-  const [createAccountConfirmPassword, setCreateAccountConfirmPassword] =
-    React.useState("");
+  const [createAccountConfirmPassword, setCreateAccountConfirmPassword] = React.useState("");
   React.useEffect(() => {
     if (createAccountShow === true) {
+      if(accounts.length >= 25) {
+        alert("You cannot create more than 25 addresses.")
+        setCreateAccountShow(false);
+        return;
+      }
       setCreateAccountLabel("");
       setCreateAccountPassword("");
       setCreateAccountConfirmPassword("");
@@ -1024,7 +1028,7 @@ const Popup: React.FC = () => {
       </Modal>
 
       <div className="section-footer">
-        <span>© The Dingocoin Project 2021 - 2023</span>
+        <span>© The Dingocoin Project 2021 - 2024</span>
       </div>
     </div>
   );
